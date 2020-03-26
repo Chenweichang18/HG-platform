@@ -1,0 +1,20 @@
+<view class='s1'>
+    <image src="../images/s4.png"  bindtap='chushou'></image>
+</view>
+<view class="v1"></view>
+
+<view class='p1'>
+<input class="I" type='text' placeholder='请输入您的姓名' value='{{book.name}}' confirm-type='done' bindinput='getinput'></input>
+</view>
+<view class='p2'>
+<input class="I" type='number' placeholder='请输入手机号码' value="{{book.phone}}" confirm-type='done' bindinput='getinput2'></input>
+</view>
+<view class='p3'>
+<input class="I" type='text' placeholder='请输入宿舍号' value="{{book.address}}" confirm-type='done' bindinput='getinput3'></input>
+</view>
+<button class='btn1' bindtap='bianji' hover-class='btn1_hover'><text class="t1">编辑</text></button>
+<button class='btn2' bindtap='xiugai' hover-class='btn2_hover'><text class="t2">修改地址</text></button>
+<label class="l1">姓   名 </label>
+<label class="l2">手机号：</label>
+<label class="l3">宿舍号：</label>
+<label class="l4">：</label>

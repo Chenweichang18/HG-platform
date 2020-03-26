@@ -1,0 +1,56 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/Release/Release",
+    "pages/explain/explain",
+    "pages/publish/publish",
+    "pages/Sell/Sell",
+    "pages/qgou/qgou",
+    "pages/null/null",
+    "pages/item/item",
+    "pages/item2/item2",
+    "pages/item3/item3",
+    "pages/search/search",
+    "pages/Trading/Trading",
+    "pages/Record/Record",
+    "pages/Collection/Collection",
+    "pages/not/not",
+    "pages/address/address",
+    "pages/address2/address2"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffcc9a",
+    "navigationBarTitleText": "二手书籍平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/首页图标-未点击.png",
+        "selectedIconPath": "pages/images/首页图标-点击.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "pages/images/发布-未点击.png",
+        "selectedIconPath": "pages/images/发布-点击.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "pages/images/我的图标-未点击.png",
+        "selectedIconPath": "pages/images/我的图标-点击.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
